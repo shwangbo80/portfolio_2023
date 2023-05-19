@@ -1,0 +1,53 @@
+import React from "react";
+
+function ContactComponent() {
+  return (
+    <>
+      <div id="footer" className="border-0" style={{backgroundColor: "white"}}>
+        <div className="container">
+          <div className="footer-widgets-wrap  m-0">
+            <div className="row justify-content-between">
+              <div className="col-md-6">
+                <div className="widget">
+                  <h3 className="h1 mb-5">Let's Talk!</h3>
+                  <span className="text-black-50">
+                    Thank you for visiting my portfolio website. I invite you to
+                    explore my work and get in touch to discuss how I can
+                    contribute to your next web development project. Let's
+                    collaborate and bring your ideas to life!
+                  </span>
+                  <a
+                    href="mailto:shwangbo80@gmail.com"
+                    className="h4 text-primary mt-5 mb-4 d-block">
+                    shwangbo80@gmail.com{" "}
+                    <i
+                      className="icon-line-arrow-right position-relative ms-2"
+                      style={{top: 3}}
+                    />
+                  </a>
+                  <div>
+                    <a
+                      href="https://www.linkedin.com/in/soohwangbo/"
+                      className="social-icon si-medium si-colored si-linkedin"
+                      target="_blank">
+                      <i className="icon-linkedin" />
+                      <i className="icon-linkedin" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <img
+                  className="profile_img img-fluid mt-5 mt-md-0 mx-auto d-block"
+                  src="./src/assets/img/soo.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default ContactComponent;
