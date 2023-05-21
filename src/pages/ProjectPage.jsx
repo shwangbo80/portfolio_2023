@@ -3,7 +3,7 @@ import {useState, useEffect} from "react";
 import {Link} from "react-router-dom";
 import {useParams} from "react-router-dom";
 import projectsObj from "../projectsObj";
-import {Spinner} from "react-bootstrap";
+import {Spinner, OverlayTrigger, Tooltip} from "react-bootstrap";
 
 function ProjectPage() {
   useEffect(() => {
@@ -65,24 +65,54 @@ function ProjectPage() {
                 </li>
               </ul>
               <div>
-                <div>
+                <OverlayTrigger
+                  key="top"
+                  placement="top"
+                  overlay={
+                    <Tooltip id={`tooltip-top`}>
+                      Link to <strong>website</strong>
+                    </Tooltip>
+                  }>
                   <a
-                    href="https://www.linkedin.com/in/soohwangbo/"
+                    href={item.url}
                     className="social-icon si-medium si-colored"
                     target="_blank">
                     <i className="icon-line-monitor bg-secondary" />
                     <i className="icon-line-monitor bg-danger" />
                   </a>
-                </div>
-                <div>
+                </OverlayTrigger>
+                <OverlayTrigger
+                  key="top"
+                  placement="top"
+                  overlay={
+                    <Tooltip id={`tooltip-top`}>
+                      Github <strong>client</strong>
+                    </Tooltip>
+                  }>
                   <a
-                    href="https://www.linkedin.com/in/soohwangbo/"
+                    href={item.github_url_client}
+                    className="social-icon si-medium si-colored "
+                    target="_blank">
+                    <i className="icon-github bg-secondary" />
+                    <i className="icon-github bg-primary" />
+                  </a>
+                </OverlayTrigger>
+                <OverlayTrigger
+                  key="top"
+                  placement="top"
+                  overlay={
+                    <Tooltip id={`tooltip-top`}>
+                      Github <strong>API</strong>
+                    </Tooltip>
+                  }>
+                  <a
+                    href={item.github_url_api}
                     className="social-icon si-medium si-colored "
                     target="_blank">
                     <i className="icon-github bg-secondary" />
                     <i className="icon-github bg-dark" />
                   </a>
-                </div>
+                </OverlayTrigger>
               </div>
             </div>
           </div>

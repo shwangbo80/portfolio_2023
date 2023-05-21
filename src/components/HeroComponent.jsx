@@ -38,7 +38,7 @@ function HeroComponent() {
                       with captivating design.
                     </p>
                     <a
-                      href="#"
+                      href="#projects"
                       data-scrollto="#projects"
                       data-easing="easeInOutExpo"
                       data-speed={1250}
@@ -54,7 +54,7 @@ function HeroComponent() {
                       <i className="icon-line-arrow-right" />
                     </a>
                     <a
-                      href="#"
+                      href="#contact"
                       data-scrollto="#footer"
                       data-easing="easeInOutExpo"
                       data-speed={1250}

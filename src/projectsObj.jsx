@@ -29,6 +29,9 @@ const projectsObj = [
     created_by: "Soo Hwangbo",
     skills: ["HTML", "CSS", "Bootstrap", "React", "Node", "Express", "MongoDB"],
     img: ["/assets/img/works_3.jpg"],
+    url: "https://bugtracker.soohwangbo.com/",
+    github_url_client: "https://github.com/shwangbo80/bug_tracker_client.git",
+    github_url_api: "https://github.com/shwangbo80/bug_tracker_api.git",
   },
   {
     project_id: 2,
@@ -56,6 +59,9 @@ const projectsObj = [
     created_by: "Soo Hwangbo",
     skills: ["HTML", "CSS", "Bootstrap", "React", "Node", "Express", "MongoDB"],
     img: ["/assets/img/works_1.jpg"],
+    url: "https://forum.soohwangbo.com/",
+    github_url_client: "https://github.com/shwangbo80/forum_client.git",
+    github_url_api: "https://github.com/shwangbo80/forum_server.git",
   },
   {
     project_id: 3,
@@ -83,6 +89,9 @@ const projectsObj = [
     created_by: "Soo Hwangbo",
     skills: ["HTML", "CSS", "Bootstrap", "React", "Node", "Express", "MongoDB"],
     img: ["/assets/img/works_2.jpg"],
+    url: "https://blog.soohwangbo.com/",
+    github_url_client: "https://github.com/shwangbo80/mern_blog_client.git",
+    github_url_api: "https://github.com/shwangbo80/mern_blog_api.git",
   },
 ];
 

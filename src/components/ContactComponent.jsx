@@ -3,8 +3,11 @@ import React from "react";
 function ContactComponent() {
   return (
     <>
-      <div id="footer" className="border-0" style={{backgroundColor: "white"}}>
-        <div className="container">
+      <div
+        id="footer"
+        className="border-0 pt-5"
+        style={{backgroundColor: "white"}}>
+        <div className="container" id="contact">
           <div className="footer-widgets-wrap  m-0">
             <div className="row justify-content-between">
               <div className="col-md-6">

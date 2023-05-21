@@ -4,12 +4,11 @@ import {Link} from "react-router-dom";
 function PortfolioPage() {
   return (
     <div>
-      {/* Document Wrapper
-	============================================= */}
-      <div id="wrapper" className="clearfix ">
-        {/* Content
-		============================================= */}
-
+      <div className="coming-soon-container">
+        <h1 className="fw-bold">COMING SOON</h1>
+        <a href="/">go back</a>
+      </div>
+      {/* <div id="wrapper" className="clearfix ">
         <div id="projects" className="section m-0 bg-white">
           <div className="container mt-5 pt-5">
             <div className="row justify-content-center text-center my-5">
@@ -30,7 +29,6 @@ function PortfolioPage() {
             </div>
           </div>
         </div>
-        {/* #featured projects */}
         <div id="projects" className="section m-0">
           <div className="container">
             <div className="row justify-content-center text-center my-5">
@@ -129,7 +127,6 @@ function PortfolioPage() {
           </div>
         </div>
 
-        {/* #More projects */}
         <div id="projects" className="section m-0 bg-white">
           <div className="container">
             <div className="row justify-content-center text-center my-5">
@@ -227,9 +224,7 @@ function PortfolioPage() {
             </div>
           </div>
         </div>
-        {/* #content end */}
-      </div>
-      {/* #wrapper end */}
+      </div> */}
     </div>
   );
 }

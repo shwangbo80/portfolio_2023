@@ -1,3 +1,12 @@
+.coming-soon-container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .profile-img {
   width: 200px;
   height: auto;
