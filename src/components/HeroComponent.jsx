@@ -5,6 +5,8 @@ function HeroComponent() {
     <>
       {/* Hero ============================================= */}
       <section
+        data-aos="zoom-in"
+        data-aos-duration="1000"
         id="slider"
         className="slider-element min-vh-md-100 mt-1 py-4 include-header">
         <div className="slider-inner">
@@ -16,7 +18,7 @@ function HeroComponent() {
                   <div className="emphasis-title mb-2">
                     <img
                       className="mb-5 profile-img"
-                      src="./src/assets/img/soo.png"></img>
+                      src="/assets/img/soo.png"></img>
 
                     <div className="oc-item">
                       <h4 className="text-uppercase ls3 fw-bolder mb-0">
@@ -28,7 +30,7 @@ function HeroComponent() {
                     </div>
                   </div>
                   <div className="mx-auto" style={{maxWidth: 600}}>
-                    <p className="lead fw-normal text-dark mb-5">
+                    <p className="lead fw-normal mb-5">
                       Welcome to my portfolio website! I'm Soo Hwangbo, a
                       passionate and experienced full-stack MERN web developer.
                       I specialize in crafting immersive and user-friendly web

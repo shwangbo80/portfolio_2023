@@ -16,13 +16,14 @@ function HomePage() {
           <section id="content">
             <div className="content-wrap p-0">
               <HeroComponent />
+              <div className="wave-container-skills" />
               <SkillsComponent />
               <ExperienceComponent />
               <div className="clear" />
               <ProjectsComponent />
               <div className="clear" />
               <ServicesComponent />
-              <div className="clear" />
+              <div className="wave-container" />
               <QuestionsComponent />
               <div className="clear" />
               <ContactComponent />

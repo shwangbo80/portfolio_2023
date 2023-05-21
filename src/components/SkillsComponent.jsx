@@ -2,10 +2,10 @@ import React from "react";
 
 function SkillsComponent() {
   return (
-    <>
+    <div>
       <div
         id="about"
-        className="section mb-0 pt-3 pb-0"
+        className="section  my-0 pt-3 pb-0"
         style={{
           backgroundColor: "#F4F4F4",
           marginTop: 150,
@@ -23,11 +23,11 @@ function SkillsComponent() {
           <div className="row justify-content-center text-center mt-5">
             <div className="col-lg-6">
               <div>
-                <h3 className="fw-bolder h1 mb-4">
+                <h3 className="fw-bolder h1 mb-4" data-aos="slide-right">
                   Fullstack Developer, Based in{" "}
                   <span className="text-primary">CALIFORNIA</span>
                 </h3>
-                <p className="mb-5 lead fw-extralight">
+                <p className="mb-5 lead fw-normal" data-aos="slide-left">
                   With a strong foundation in JavaScript and expertise in the
                   MERN (MongoDB, Express.js, React.js, Node.js) stack, I have
                   successfully delivered numerous projects, ranging from small
@@ -44,7 +44,7 @@ function SkillsComponent() {
           <div
             className="parallax min-vh-75"
             style={{
-              backgroundImage: 'url("./src/assets/img/desktop.avif")',
+              backgroundImage: 'url("/assets/img/desktop.avif")',
               backgroundSize: "cover",
               backgroundPosition: "center center",
             }}
@@ -86,7 +86,7 @@ function SkillsComponent() {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

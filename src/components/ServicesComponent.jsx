@@ -3,15 +3,15 @@ import React from "react";
 function ServicesComponent() {
   return (
     <>
-      <div className="section bg-transparent py-5">
+      <div className="section bg-transparent mb-0">
         <div className="container">
-          <div className="row justify-content-center text-center my-5">
+          <div className="row justify-content-center text-center my-0">
             <div className="col-lg-6">
               <div>
-                <h3 className="fw-bolder h1 mb-4">
+                <h3 className="fw-bolder h1 mb-4" data-aos="slide-right">
                   Ways I can help <span className="text-primary">YOU</span>
                 </h3>
-                <p className="lead mb-0">
+                <p className="lead mb-0 fw-normal" data-aos="slide-left">
                   Throughout my career, I have honed my skills in front-end
                   development, creating beautiful and responsive user interfaces
                   with HTML, CSS, and React. I am equally comfortable working on
@@ -23,17 +23,17 @@ function ServicesComponent() {
               </div>
             </div>
           </div>
-          <div className="row gutter-50 mb-5 align-items-stretch">
+          <div className="row gutter-50 align-items-stretch">
             <div className="col-md-4">
               <div
-                className="card d-flex align-items-end flex-column p-4 border-0"
+                className="card d-flex align-items-end flex-column p-4 border-0 card-container"
                 style={{backgroundColor: "#f9f9f9"}}>
                 <div className="mt-5" />
                 <div className="mt-auto">
                   <div className="card-body">
                     <div className="d-flex align-items-center mb-4">
                       <img
-                        src="./src/assets/img/sketch.svg"
+                        src="/assets/img/sketch.svg"
                         height={50}
                         alt="Image"
                       />
@@ -52,13 +52,13 @@ function ServicesComponent() {
             </div>
             <div className="col-md-4">
               <div
-                className="card d-flex align-items-end flex-column p-4 border-0"
+                className="card d-flex align-items-end flex-column p-4 border-0 card-container"
                 style={{backgroundColor: "#edf2fb"}}>
                 <div className="mt-5" />
                 <div className="mt-auto">
                   <div className="card-body">
                     <img
-                      src="./src/assets/img/social.svg"
+                      src="/assets/img/social.svg"
                       alt="Image"
                       className="mb-4"
                       height={50}
@@ -77,13 +77,13 @@ function ServicesComponent() {
             </div>
             <div className="col-md-4">
               <div
-                className="card d-flex align-items-end flex-column p-4 border-0"
+                className="card d-flex align-items-end flex-column p-4 border-0 card-container"
                 style={{backgroundColor: "#f9f9f9"}}>
                 <div className="mt-5" />
                 <div className="mt-auto">
                   <div className="card-body">
                     <img
-                      src="./src/assets/img/wp.png"
+                      src="/assets/img/wp.png"
                       height={50}
                       alt="Image"
                       className="mb-4"
@@ -103,13 +103,13 @@ function ServicesComponent() {
             </div>
             <div className="col-md-4">
               <div
-                className="card d-flex align-items-end flex-column p-4 border-0"
+                className="card d-flex align-items-end flex-column p-4 border-0 card-container"
                 style={{backgroundColor: "#edf2fb"}}>
                 <div className="mt-5" />
                 <div className="mt-auto">
                   <div className="card-body">
                     <img
-                      src="./src/assets/img/react.png"
+                      src="/assets/img/react.png"
                       height={50}
                       alt="Image"
                       className="mb-4"
@@ -128,13 +128,13 @@ function ServicesComponent() {
             </div>
             <div className="col-md-4">
               <div
-                className="card d-flex align-items-end flex-column p-4 border-0"
+                className="card d-flex align-items-end flex-column p-4 border-0 card-container"
                 style={{backgroundColor: "#f9f9f9"}}>
                 <div className="mt-5" />
                 <div className="mt-auto">
                   <div className="card-body">
                     <img
-                      src="./src/assets/img/node.png"
+                      src="/assets/img/node.png"
                       height={50}
                       alt="Image"
                       className="mb-4"
@@ -154,13 +154,13 @@ function ServicesComponent() {
             </div>
             <div className="col-md-4">
               <div
-                className="card d-flex align-items-end flex-column p-4 border-0"
+                className="card d-flex align-items-end flex-column p-4 border-0 card-container"
                 style={{backgroundColor: "#edf2fb"}}>
                 <div className="mt-5" />
                 <div className="mt-auto">
                   <div className="card-body">
                     <img
-                      src="./src/assets/img/mongodb.png"
+                      src="/assets/img/mongodb.png"
                       height={50}
                       alt="Image"
                       className="mb-4"
@@ -179,7 +179,6 @@ function ServicesComponent() {
             </div>
           </div>
         </div>
-        <div className="clear" />
       </div>
     </>
   );

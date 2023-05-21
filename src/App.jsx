@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "../public/assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import HomePage from "./pages/HomePage";
@@ -12,6 +12,8 @@ import ProjectPage from "./pages/ProjectPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ScrollToTop from "./components/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import {
   createBrowserRouter,
@@ -37,9 +39,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  useEffect(() => {
+    AOS.init({duration: 1500});
+  }, []);
   return (
     <>
-      {/* <ScrollToTop /> */}
       <NavComponent />
       <RouterProvider router={router} />
       <FooterComponent />

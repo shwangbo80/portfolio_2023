@@ -10,7 +10,10 @@ function NavComponent() {
         className="border-bottom-0 no-sticky transparent-header">
         <div id="header-wrap">
           <div className="container">
-            <div className="header-row">
+            <div
+              className="header-row"
+              data-aos="slide-down"
+              data-aos-duration="2000">
               {/* Logo
 						============================================= */}
               <div id="logo">
@@ -35,7 +38,7 @@ function NavComponent() {
                 <ul className="menu-container">
                   <li>
                     <a
-                      href="#"
+                      href="#about"
                       data-scrollto="#about"
                       data-easing="easeInOutExpo"
                       data-speed={1250}
@@ -46,7 +49,7 @@ function NavComponent() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="#projects"
                       data-scrollto="#projects"
                       data-easing="easeInOutExpo"
                       data-speed={1250}
@@ -58,7 +61,7 @@ function NavComponent() {
                   <li>
                     <a
                       className="menu-link"
-                      href="#"
+                      href="#footer"
                       data-scrollto="#footer"
                       data-easing="easeInOutExpo"
                       data-speed={1250}
