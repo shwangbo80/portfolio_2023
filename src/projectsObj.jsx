@@ -28,7 +28,7 @@ const projectsObj = [
       "The Project Management Application is a web-based tool that simplifies project management and improves team collaboration. Built using the MERN stack, the application provides a centralized platform for project managers and team members to manage tasks, track progress, and share project-related information. Its user-friendly interface and real-time updates make it an ideal tool for businesses looking to improve productivity and streamline project management.",
     created_by: "Soo Hwangbo",
     skills: ["HTML", "CSS", "Bootstrap", "React", "Node", "Express", "MongoDB"],
-    img: ["./src/assets/img/works_3.jpg"],
+    img: ["/assets/img/works_3.jpg"],
   },
   {
     project_id: 2,
@@ -55,7 +55,7 @@ const projectsObj = [
       "The Forum Application is a web-based forum platform that allows users to create and participate in discussions. Built using the MERN stack, the application provides a centralized platform for users to share knowledge, ask questions, and engage in meaningful conversations. Its user-friendly interface and support for rich text formatting, images, and video make it an ideal tool for businesses, educational institutions, or online communities looking to build a knowledge-sharing platform..",
     created_by: "Soo Hwangbo",
     skills: ["HTML", "CSS", "Bootstrap", "React", "Node", "Express", "MongoDB"],
-    img: ["./src/assets/img/works_1.jpg"],
+    img: ["/assets/img/works_1.jpg"],
   },
   {
     project_id: 3,
@@ -82,7 +82,7 @@ const projectsObj = [
       "The Blog Application is a web-based platform that allows users to create and publish blog posts. Built using the MERN stack, the application provides a centralized platform for bloggers to share their thoughts, ideas, and experiences with their readers. Its user-friendly interface and support for rich text formatting, images, and video make it an ideal tool for bloggers looking to build an online presence and engage with their readers.",
     created_by: "Soo Hwangbo",
     skills: ["HTML", "CSS", "Bootstrap", "React", "Node", "Express", "MongoDB"],
-    img: ["./src/assets/img/works_2.jpg"],
+    img: ["/assets/img/works_2.jpg"],
   },
 ];
 

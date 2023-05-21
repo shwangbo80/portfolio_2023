@@ -48,7 +48,7 @@ function HeroComponent() {
                       <i className="icon-line-arrow-right" />
                     </a>
                     <a
-                      href="./src/assets/Soo_Hwangbo_042323.pdf"
+                      href="/assets/Soo_Hwangbo_042323.pdf"
                       className="button button-dark button-hero h-translatey-3 tf-ts button-reveal overflow-visible bg-dark text-end">
                       <span>Resume</span>
                       <i className="icon-line-arrow-right" />

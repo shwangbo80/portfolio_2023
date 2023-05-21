@@ -1,8 +1,36 @@
 import React from "react";
-import {useEffect} from "react";
 import {Link} from "react-router-dom";
+import projectsObj from "../projectsObj";
 
 function ProjectsComponent() {
+  const RenderProjects = () => {
+    return projectsObj.map((item, key) => {
+      return (
+        <div key={key} className="col-lg-6 h-translatey-3 tf-ts">
+          <a href={`./project/${item.project_id}`} className="portfolio-item">
+            <div className="portfolio-image">
+              <img src={item.img[0]} alt="Portfoio Item" />
+              <div className="bg-overlay">
+                <div className="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
+                  <h3 className="mb-0 mt-1">{item.project_name}</h3>
+                </div>
+                <div className="bg-overlay-content align-items-start justify-content-end p-4">
+                  <div
+                    className="overlay-trigger-icon bg-dark text-white"
+                    data-hover-animate="fadeInDownSmall"
+                    data-hover-animate-out="fadeOutUpSmall"
+                    data-hover-speed={350}>
+                    <i className="icon-line-link" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      );
+    });
+  };
+
   return (
     <>
       <div id="projects" className="section m-0">
@@ -29,69 +57,7 @@ function ProjectsComponent() {
             </div>
           </div>
           <div className="row justify-content-center col-mb-50">
-            <div className="col-lg-6 h-translatey-3 tf-ts">
-              <a href="./project/:name" className="portfolio-item">
-                <div className="portfolio-image">
-                  <img src="/assets/img/works_3.jpg" alt="Portfoio Item" />
-                  <div className="bg-overlay">
-                    <div className="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-                      <h3 className="mb-0 mt-1">Project Manager</h3>
-                    </div>
-                    <div className="bg-overlay-content align-items-start justify-content-end p-4">
-                      <div
-                        className="overlay-trigger-icon bg-dark text-white"
-                        data-hover-animate="fadeInDownSmall"
-                        data-hover-animate-out="fadeOutUpSmall"
-                        data-hover-speed={350}>
-                        <i className="icon-line-link" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-lg-6 h-translatey-3 tf-ts">
-              <a href="./project/:name" className="portfolio-item">
-                <div className="portfolio-image">
-                  <img src="/assets/img/works_2.jpg" alt="Portfoio Item" />
-                  <div className="bg-overlay">
-                    <div className="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-                      <h3 className="mb-0 mt-1">Blogger</h3>
-                    </div>
-                    <div className="bg-overlay-content align-items-start justify-content-end p-4">
-                      <div
-                        className="overlay-trigger-icon bg-dark text-white"
-                        data-hover-animate="fadeInDownSmall"
-                        data-hover-animate-out="fadeOutUpSmall"
-                        data-hover-speed={350}>
-                        <i className="icon-line-link" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-lg-6 h-translatey-3 tf-ts">
-              <a href="./project/:name" className="portfolio-item">
-                <div className="portfolio-image">
-                  <img src="/assets/img/works_1.jpg" alt="Portfoio Item" />
-                  <div className="bg-overlay">
-                    <div className="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-                      <h3 className="mb-0 mt-1">Community Forum</h3>
-                    </div>
-                    <div className="bg-overlay-content align-items-start justify-content-end p-4">
-                      <div
-                        className="overlay-trigger-icon bg-dark text-white"
-                        data-hover-animate="fadeInDownSmall"
-                        data-hover-animate-out="fadeOutUpSmall"
-                        data-hover-speed={350}>
-                        <i className="icon-line-link" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+            <RenderProjects />
             <div className="col-lg-6 h-translatey-3 tf-ts"></div>
           </div>
         </div>
