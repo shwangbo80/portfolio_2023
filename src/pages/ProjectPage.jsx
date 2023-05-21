@@ -65,14 +65,25 @@ function ProjectPage() {
                 </li>
               </ul>
               <div>
-                <a
-                  href="https://www.linkedin.com/in/soohwangbo/"
-                  className="social-icon si-medium si-colored si-linkedin"
-                  target="_blank">
-                  <i className="icon-github bg-secondary" />
-                  <i className="icon-github bg-dark" />
-                </a>
-              </div>{" "}
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/soohwangbo/"
+                    className="social-icon si-medium si-colored"
+                    target="_blank">
+                    <i className="icon-line-monitor bg-secondary" />
+                    <i className="icon-line-monitor bg-danger" />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/soohwangbo/"
+                    className="social-icon si-medium si-colored "
+                    target="_blank">
+                    <i className="icon-github bg-secondary" />
+                    <i className="icon-github bg-dark" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         );
