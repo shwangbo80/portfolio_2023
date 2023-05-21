@@ -7,7 +7,7 @@ function ProjectsComponent() {
     return projectsObj.map((item, key) => {
       return (
         <div key={key} className="col-lg-6 h-translatey-3 tf-ts">
-          <a href={`./project/${item.project_id}`} className="portfolio-item">
+          <a href={`project/${item.project_id}`} className="portfolio-item">
             <div className="portfolio-image">
               <img src={item.img[0]} alt="Portfoio Item" />
               <div className="bg-overlay">
