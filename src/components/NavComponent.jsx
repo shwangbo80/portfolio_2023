@@ -20,9 +20,9 @@ function NavComponent() {
                 <a href="/">
                   <h3 className="fw-bold text-primary mt-4">Soo_Hwangbo</h3>
                 </a>
-                <a href="/" className="retina-logo">
+                {/* <a href="/" className="retina-logo">
                   <h3 className="fw-bold text-primary mt-4">Soo_Hwangbo</h3>
-                </a>
+                </a> */}
               </div>
               {/* #logo end */}
               <div id="primary-menu-trigger">
