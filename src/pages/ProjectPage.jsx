@@ -26,7 +26,7 @@ function ProjectPage() {
     } else {
       return projectInfo.map((item, key) => {
         return (
-          <div className="row mt-5" key={key}>
+          <div className="row mt-md-5" key={key}>
             <div className="col-lg-8">
               <a href="#">
                 <img
@@ -126,13 +126,11 @@ function ProjectPage() {
       <div id="wrapper" className="clearfix">
         <section id="content">
           <div className="content-wrap">
-            <div className="container pt-5 mt-5">
+            <div className="container pt-md-5 mt-md-5">
               <RenderProject />
             </div>
           </div>
         </section>
-        {/* #content end */}
-        {/* #wrapper end */}
       </div>
     </>
   );

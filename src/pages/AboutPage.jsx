@@ -4,19 +4,13 @@ function AboutPage() {
   return (
     <>
       <div>
-        {/* Document Wrapper
-	============================================= */}
         <div id="wrapper" className="clearfix">
-          {/* Header
-		============================================= */}
           <header
             id="header"
             className="border-bottom-0 no-sticky transparent-header">
             <div id="header-wrap">
               <div className="container">
                 <div className="header-row">
-                  {/* Logo
-						============================================= */}
                   <div id="logo">
                     <a href="demo-freelancer.html" className="standard-logo">
                       <img
@@ -31,7 +25,6 @@ function AboutPage() {
                       />
                     </a>
                   </div>
-                  {/* #logo end */}
                   <div className="header-misc">
                     <a
                       href="mailto:noreply@canvas.com"
@@ -46,8 +39,6 @@ function AboutPage() {
                       <path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
                     </svg>
                   </div>
-                  {/* Primary Navigation
-						============================================= */}
                   <nav className="primary-menu">
                     <ul className="menu-container">
                       <li className="menu-item current">
@@ -77,14 +68,10 @@ function AboutPage() {
                       </li>
                     </ul>
                   </nav>
-                  {/* #primary-menu end */}
                 </div>
               </div>
             </div>
           </header>
-          {/* #header end */}
-          {/* Content
-		============================================= */}
           <section id="content">
             <div className="content-wrap pb-0">
               <div className="mw-md container mb-5">
@@ -310,9 +297,6 @@ function AboutPage() {
               </div>
             </div>
           </section>
-          {/* #content end */}
-          {/* Footer
-		============================================= */}
           <footer
             id="footer"
             className="border-0"
@@ -441,11 +425,7 @@ function AboutPage() {
               </div>
             </div>
           </footer>
-          {/* #footer end */}
         </div>
-        {/* #wrapper end */}
-        {/* Go To Top
-	============================================= */}
         <div
           id="gotoTop"
           className="icon-double-angle-up bg-white text-dark rounded-circle shadow"

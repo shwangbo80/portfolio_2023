@@ -1,9 +1,9 @@
 import React from "react";
 import {useEffect} from "react";
+
 function HeroComponent() {
   return (
     <>
-      {/* Hero ============================================= */}
       <section
         data-aos="zoom-in"
         data-aos-duration="1000"
@@ -24,7 +24,7 @@ function HeroComponent() {
                       <h4 className="text-uppercase ls3 fw-bolder mb-0">
                         Hello, my name is
                       </h4>
-                      <h2 className="text-primary fw-bolder text-uppercase">
+                      <h2 className="mt-3 text-primary fw-bolder text-uppercase">
                         Soo Hwangbo
                       </h2>
                     </div>
@@ -71,7 +71,6 @@ function HeroComponent() {
           </div>
         </div>
       </section>
-      {/* #Hero end */}
     </>
   );
 }

@@ -36,6 +36,10 @@ const router = createBrowserRouter([
     path: "project/:id",
     element: <ProjectPage />,
   },
+  {
+    path: "about",
+    element: <AboutPage />,
+  },
 ]);
 
 function App() {
@@ -44,9 +48,11 @@ function App() {
   }, []);
   return (
     <>
-      <NavComponent />
-      <RouterProvider router={router} />
-      <FooterComponent />
+      <div id="wrapper">
+        <NavComponent />
+        <RouterProvider router={router} />
+        <FooterComponent />
+      </div>
     </>
   );
 }
