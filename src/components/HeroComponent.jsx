@@ -48,7 +48,7 @@ function HeroComponent() {
                       <i className="icon-line-arrow-right" />
                     </a>
                     <a
-                      href="/assets/Soo_Hwangbo_042323.pdf"
+                      href="/assets/Soo_Hwangbo_082423.pdf"
                       className="button button-dark button-hero h-translatey-3 tf-ts button-reveal overflow-visible bg-dark text-end">
                       <span>Resume</span>
                       <i className="icon-line-arrow-right" />
@@ -60,7 +60,7 @@ function HeroComponent() {
                       data-speed={1250}
                       data-offset={70}
                       className="button button-large button-light text-dark bg-transparent m-0">
-                      <i className="icon-line2-arrow-down fw-bold" />{" "}
+                      <i className="icon-line2-arrow-down fw-bold" />
                       <u>Contact Me</u>
                     </a>
                   </div>
